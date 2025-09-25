@@ -1,0 +1,126 @@
+.services-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.services-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.services-intro {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-item-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.service-item-description {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.service-details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-details-list li {
+  background-color: var(--light-background);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
+
+.service-details-list li:hover {
+  background-color: var(--neutral-mid);
+}
+
+.process-section {
+  padding: 5rem 2.5rem;
+  text-align: center;
+}
+
+.process-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.process-subtitle {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  margin-bottom: 3rem;
+}
+
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .process-steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.process-step {
+  flex: 1;
+  background-color: var(--white);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-15px) scale(1.02);
+}
+
+.step-number {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  line-height: 1.7;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --primary-color: #E74C3C;
+  --secondary-color: #34495E;
+  --accent-color: #FFC107;
+  --dark-background: #2C3E50;
+  --light-background: #ECF0F1;
+  --white: #ffffff;
+  --text-dark: #212529;
+  --text-light: #F8F9FA;
+  --border-color: #BDC3C7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; /* Tamanho da fonte base para dispositivos maiores */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px; /* Diminui a fonte base em tablets e celulares */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* Diminui ainda mais para telas pequenas */
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--light-background);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+section {
+  padding: 5rem 2.5rem;
+  text-align: center;
+}

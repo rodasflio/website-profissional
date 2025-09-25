@@ -1,0 +1,162 @@
+.about-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.about-intro {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-story, .mission-vision-values-section, .team-section {
+  padding: 5rem 0;
+}
+
+.story-content, .mission-vision-values-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story-title, .section-title, .team-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.story-content p, .essence-card p, .essence-card li {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  line-height: 1.7;
+}
+
+/* Seção Missão, Visão e Valores */
+.mission-vision-values-section {
+  background-color: var(--light-background);
+  border-radius: 12px;
+}
+
+.essence-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.essence-card {
+  background-color: var(--white);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.essence-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.essence-icon {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.essence-card h3 {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.essence-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.essence-card ul li {
+  background-color: var(--light-background);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Seção da Equipe */
+.team-section {
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.team-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.team-info {
+  text-align: center;
+}
+
+.member-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.member-role {
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.member-bio {
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  line-height: 1.7;
+}
