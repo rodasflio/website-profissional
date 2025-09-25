@@ -1,17 +1,29 @@
 .custom-card {
-  background-color: var(--white);
-  padding: 2.5rem; /* Mais padding */
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra mais sutil, mas presente */
-  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* Transições mais lentas */
+  background-color: var(--background-color);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 
+    8px 8px 16px var(--shadow-dark),
+    -8px -8px 16px var(--shadow-light);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid var(--border-color); /* Borda sutil */
+  border: none;
 }
 
 .custom-card:hover {
-  transform: translateY(-12px) scale(1.02); /* Desliza um pouco mais e cresce sutilmente */
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 
+    6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+}
+
+.custom-card.inset,
+.custom-card:active {
+  box-shadow: 
+    inset 6px 6px 12px var(--shadow-dark),
+    inset -6px -6px 12px var(--shadow-light);
+  transform: none;
 }

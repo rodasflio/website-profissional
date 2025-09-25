@@ -1,6 +1,7 @@
 .clients-section {
-  padding: 4rem 2rem;
+  padding: 5rem 2.5rem;
   text-align: center;
+  background-color: var(--background-color);
 }
 
 .clients-grid {
@@ -20,12 +21,18 @@
   justify-content: center;
   filter: grayscale(100%);
   opacity: 0.6;
-  transition: all 0.3s ease;
+  box-shadow: 
+    4px 4px 8px var(--shadow-dark),
+    -4px -4px 8px var(--shadow-light);
+  border-radius: 15px;
 }
 
 .client-logo-container:hover {
   filter: grayscale(0%);
   opacity: 1;
+  box-shadow: 
+    inset 4px 4px 8px var(--shadow-dark),
+    inset -4px -4px 8px var(--shadow-light);
 }
 
 .client-logo {

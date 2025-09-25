@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Cores Neomórficas Refinadas */
+  --primary-color: #e74c3c;
+  --primary-light: #ff7265;
+  --background-color: #d8e0ec;
+  --white: #f3f7fd;
+
+  /* Sombras para o efeito neomórfico */
+  --shadow-light: #f3faff;
+  --shadow-dark: #a6b2c6;
+  --shadow-inset-light: rgba(255, 255, 255, 0.4);
+  --shadow-inset-dark: rgba(0, 0, 0, 0.2);
+
+  /* Cores de Texto e Ícones */
+  --text-dark: #2c3e50;
+  --text-secondary: #5a6b84;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--background-color);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+section {
+  padding: 5rem 2.5rem;
+  text-align: center;
+}
