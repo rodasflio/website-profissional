@@ -27,3 +27,9 @@
     inset -6px -6px 12px var(--shadow-light);
   transform: none;
 }
+
+@media (max-width: 480px) {
+  .custom-card {
+    padding: 1.5rem;
+  }
+}

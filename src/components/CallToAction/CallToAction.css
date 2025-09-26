@@ -43,3 +43,18 @@
     inset -4px -4px 8px var(--shadow-light);
   color: var(--text-dark);
 }
+
+@media (max-width: 480px) {
+  .cta-section {
+    padding: 3rem 1.5rem;
+  }
+  .cta-title {
+    font-size: 2rem;
+  }
+  .cta-text {
+    font-size: 1rem;
+  }
+  .cta-button-final {
+    padding: 1rem 2rem;
+  }
+}

@@ -177,3 +177,21 @@
   color: var(--text-secondary);
   line-height: 1.7;
 }
+
+@media (max-width: 480px) {
+  .about-page-container {
+    padding: 1.5rem;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .story-title, .section-title, .team-title {
+    font-size: 2rem;
+  }
+  .essence-card {
+    padding: 1.5rem;
+  }
+  .team-card {
+    padding: 1rem;
+  }
+}

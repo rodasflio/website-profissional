@@ -140,3 +140,18 @@
     flex-direction: row;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page-container {
+    padding: 1.5rem;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+}

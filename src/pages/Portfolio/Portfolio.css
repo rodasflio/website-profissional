@@ -229,3 +229,32 @@
   font-weight: 700;
   color: var(--text-dark);
 }
+
+@media (max-width: 992px) {
+  .case-study-item {
+    flex-direction: column;
+  }
+
+  .case-study-item.reverse-layout {
+    flex-direction: column;
+  }
+
+  .case-study-content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .case-study-details {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-page-container {
+    padding: 1.5rem;
+  }
+  .portfolio-title {
+    font-size: 2.5rem;
+  }
+}

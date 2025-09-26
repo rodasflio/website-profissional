@@ -53,3 +53,16 @@
 .post-content p {
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 480px) {
+  .post-page-container {
+    padding: 1.5rem;
+  }
+  .post-title {
+    font-size: 2rem;
+  }
+  .post-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

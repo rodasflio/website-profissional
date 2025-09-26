@@ -22,3 +22,13 @@
     color: var(--white);
     border-color: var(--primary-color);
 }
+
+@media (max-width: 480px) {
+  .tags-container {
+    gap: 0.5rem;
+  }
+  .tag-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}

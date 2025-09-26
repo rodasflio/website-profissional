@@ -66,3 +66,12 @@
   color: var(--text-secondary);
   margin: 0;
 }
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    padding: 3rem 1.5rem;
+  }
+  .testimonials-grid {
+    gap: 1.5rem;
+  }
+}

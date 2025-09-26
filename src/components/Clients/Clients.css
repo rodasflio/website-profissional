@@ -39,3 +39,12 @@
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 480px) {
+  .clients-section {
+    padding: 3rem 1.5rem;
+  }
+  .clients-grid {
+    gap: 1rem;
+  }
+}
