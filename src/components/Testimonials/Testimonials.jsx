@@ -2,25 +2,24 @@ import React from 'react';
 import './Testimonials.css';
 
 const Testimonials = () => {
-  // Dados de exemplo para os depoimentos
   const testimonials = [
     {
       text: 'O trabalho foi impecável! Profissionalismo e atenção aos detalhes em todas as etapas do projeto. Nossos resultados superaram as expectativas.',
       name: 'Maria Silva',
       title: 'CEO da Empresa X',
-      image: 'https://via.placeholder.com/100' // Substitua pela imagem do cliente
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1470&auto=format&fit=crop'
     },
     {
       text: 'Uma equipe incrivelmente talentosa. Conseguiram traduzir nossa visão em um site funcional e bonito. Recomendo a todos!',
       name: 'João Mendes',
       title: 'Gerente de Marketing',
-      image: 'https://via.placeholder.com/100' // Substitua pela imagem do cliente
+      image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80'
     },
     {
       text: 'O suporte contínuo e a dedicação ao nosso projeto fizeram toda a diferença. Estamos muito satisfeitos com a parceria.',
       name: 'Ana Costa',
       title: 'Fundadora da Startup Y',
-      image: 'https://via.placeholder.com/100' // Substitua pela imagem do cliente
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80'
     },
   ];
 

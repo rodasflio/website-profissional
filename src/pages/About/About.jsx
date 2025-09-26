@@ -8,19 +8,19 @@ const About = () => {
       name: 'Nome do Fundador',
       role: 'Fundador & CEO',
       bio: 'Com mais de 10 anos de experiência em tecnologia, ele lidera a equipe com uma visão inovadora e um compromisso com a excelência.',
-      image: 'https://via.placeholder.com/150'
+      image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80'
     },
     {
       name: 'Nome do CTO',
       role: 'CTO',
       bio: 'Responsável pela arquitetura técnica e inovação de nossos projetos, garantindo que nossas soluções sejam robustas e escaláveis.',
-      image: 'https://via.placeholder.com/150'
+      image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
     },
     {
       name: 'Nome do Designer',
       role: 'Designer Chefe',
       bio: 'Especialista em UI/UX, ele cria experiências digitais intuitivas e visualmente atraentes que encantam nossos usuários.',
-      image: 'https://via.placeholder.com/150'
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80'
     },
   ];
 

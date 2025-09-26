@@ -2,13 +2,12 @@ import React from 'react';
 import './Clients.css';
 
 const Clients = () => {
-  // Dados de exemplo para os logos dos clientes
   const clientLogos = [
-    { name: 'Empresa A', src: 'https://via.placeholder.com/150x80?text=Logo+A' }, // Substitua pelos seus logos
-    { name: 'Empresa B', src: 'https://via.placeholder.com/150x80?text=Logo+B' },
-    { name: 'Empresa C', src: 'https://via.placeholder.com/150x80?text=Logo+C' },
-    { name: 'Empresa D', src: 'https://via.placeholder.com/150x80?text=Logo+D' },
-    { name: 'Empresa E', src: 'https://via.placeholder.com/150x80?text=Logo+E' },
+    { name: 'Tech Innovate', src: 'https://placehold.co/150x80/2c3e50/d8e0ec?text=Tech+Innovate' },
+    { name: 'Global Solutions', src: 'https://placehold.co/150x80/2c3e50/d8e0ec?text=Global+Solutions' },
+    { name: 'Future Enterprises', src: 'https://placehold.co/150x80/2c3e50/d8e0ec?text=Future+Enterprises' },
+    { name: 'Dynamic Corp', src: 'https://placehold.co/150x80/2c3e50/d8e0ec?text=Dynamic+Corp' },
+    { name: 'Apex Innovations', src: 'https://placehold.co/150x80/2c3e50/d8e0ec?text=Apex+Innovations' },
   ];
 
   return (

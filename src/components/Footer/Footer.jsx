@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.css'; // Importa o arquivo de estilos do Footer
+import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} Meu Site Profissional. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Meu Site Profissional. Todos os direitos reservados.</p>
         <div className="social-links">
           <a href="#" className="social-link">Facebook</a>
           <a href="#" className="social-link">Instagram</a>

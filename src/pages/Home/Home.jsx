@@ -1,17 +1,17 @@
 import React from 'react';
 import MetaTags from '../../components/MetaTags/MetaTags';
-import Card from '../../components/Card/Card'; // Importação do novo componente
-import Testimonials from '../../components/Testimonials/Testimonials'; 
+import Card from '../../components/Card/Card';
+import Testimonials from '../../components/Testimonials/Testimonials';
 import Clients from '../../components/Clients/Clients';
-import CallToAction from '../../components/CallToAction/CallToAction'; 
-import './Home.css'; 
+import CallToAction from '../../components/CallToAction/CallToAction';
+import './Home.css';
 
 const Home = () => {
   const services = [
     {
       title: 'Desenvolvimento Web',
       description: 'Criação de websites modernos e responsivos, focados na experiência do usuário e otimização para motores de busca.',
-      icon: '🌐' 
+      icon: '🌐'
     },
     {
       title: 'Marketing Digital',
@@ -44,8 +44,9 @@ const Home = () => {
           </a>
         </div>
         <div className="hero-image">
+          {/* Novo link de imagem para testar */}
           <img 
-            src="https://via.placeholder.com/400" 
+            src="https://placehold.co/600x400/2c3e50/f3f7fd/jpg?text=Soluções+Digitais" 
             alt="Ilustração de soluções digitais" 
           />
         </div>
@@ -63,7 +64,7 @@ const Home = () => {
         </div>
         <div className="about-image">
           <img 
-            src="https://via.placeholder.com/300"
+            src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
             alt="Nossa equipe" 
           />
         </div>
@@ -74,7 +75,7 @@ const Home = () => {
         <p className="section-subtitle">Conheça as soluções que oferecemos para o seu negócio.</p>
         <div className="services-grid">
           {services.map((service, index) => (
-            <Card key={index}> {/* Usando o novo componente Card */}
+            <Card key={index}>
               <div className="service-icon">{service.icon}</div>
               <h3 className="service-title">{service.title}</h3>
               <p className="service-description">{service.description}</p>

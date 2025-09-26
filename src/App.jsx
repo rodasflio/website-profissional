@@ -11,7 +11,6 @@ import About from './pages/About/About';
 import FAQ from './pages/FAQ/FAQ';
 import Blog from './components/Blog/Blog';
 import Post from './components/Blog/Post';
-import './styles/App.css';
 
 const pageVariants = {
   initial: {
